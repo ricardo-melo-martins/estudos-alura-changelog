@@ -102,3 +102,5 @@ SELECT * FROM aluno WHERE id = 1
 UPDATE aluno SET 
     nome = 'Ricardo Melo'
 WHERE id = 1    
+
+DELETE FROM aluno WHERE id = 1
