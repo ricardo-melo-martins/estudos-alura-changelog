@@ -1,0 +1,260 @@
+# RMM.gitignore
+######################
+.tmp/
+push.sh
+
+# Logs
+######################
+logs/*
+!logs/.gitkeep
+*.log
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Temporarios
+######################
+tmp/*
+.temp/
+
+# Distribuicao
+######################
+dist/
+dists/
+build/
+builds/
+web/
+
+# sistema operacional
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.thumbs.db
+.directory
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.*.local
+.env.local
+
+# Ferramentas #
+#######################
+
+# Npm
+npm-debug.log*
+node_modules/
+package-lock.json
+# Output of 'npm pack'
+*.tgz
+# Optional npm cache directory
+.npm
+
+# yarn
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.yarn-integrity
+
+# Grunt 
+.grunt
+
+# Bower 
+bower_components
+
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+# Optional eslint cache
+.eslintcache
+# Optional stylelint cache
+.stylelintcache
+
+# Ferramentas Python #
+#######################
+__pycache__/
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+# Distribution / packaging
+.Python
+# build/
+develop-eggs/
+# dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+# logs
+pip-log.txt
+pip-delete-this-directory.txt
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Ferramentas PHP #
+#######################
+
+# composer 
+composer.lock
+composer.phar
+vendor/
+
+# PHPCsFixer
+.php-cs-fixer.cache
+
+# PHPUnit
+# /build/
+phpunit.phar
+.phpunit.result.cache
+.phpunit.cache
+phpunit.xml
+/app/phpunit.xml
+/phpunit.xml
+
+
+# CodeSniffer
+# /vendor/*
+/wpcs/*
+
+# Frameworks #
+#######################
+
+# Quasar #
+#######################
+# /dist
+.quasar
+
+# Cordova #
+#######################
+/src-cordova/node_modules
+/src-cordova/platforms
+/src-cordova/plugins
+/src-cordova/www
+
+# Capacitor #
+#######################
+/src-capacitor/www
+/src-capacitor/node_modules
+
+# BEX #
+#######################
+/src-bex/www
+/src-bex/js/core
+
+# Doctrine ORM #
+#######################
+# Backup entities generated with doctrine:generate:entities command
+**/Entity/*~
+data/DoctrineORMModule/Proxy/
+data/DoctrineORMModule/cache/
+
+# Symfony #
+#######################
+/var/cache/*
+/var/logs/*
+/var/log/*
+!var/log/.gitkeep
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+# Assets and user uploads
+/web/bundles/
+/web/uploads/
+# Embedded web-server pid file
+/.web-server-pid
+
+# Zend #
+#######################
+# Local configs
+config/autoload/*.local.php
+# Binary gettext files
+*.mo
+# Data
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
+temp/
+
+
+# Editores #
+#######################
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# VSCode
+.vscode
+.vscode-test
+
+# Visual Studio
+.vs
+
+# vim
+*~
+*.swp
+*.swo
+
+# sublime text & textmate
+*.sublime-*
+*.stTheme.cache
+*.tmlanguage.cache
+*.tmPreferences.cache
+
+# Eclipse
+.settings/*
+
+# JetBrains, aka PHPStorm, IntelliJ IDEA
+.idea/*
+
+# NetBeans
+nbproject/*

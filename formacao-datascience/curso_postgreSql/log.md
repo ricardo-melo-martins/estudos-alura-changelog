@@ -1,5 +1,7 @@
 # PostgreSql
 
+Ref: https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos
+
 ## Instalando 
 
 http://https//www.postgresql.org/
@@ -70,3 +72,33 @@ TIME
 TIMESTAMP
 
 
+INSERT INTO aluno (
+    nome,
+    cpf,
+    observacao,
+    idade,
+    dinheiro,
+    altura,
+    ativo,
+    data_nascimento,
+    hora_aula,
+    matriculado_em
+
+) VALUES (
+    'Ricardo',
+    '12345678901',
+    'Lorem ipsum',
+    35,
+    100.50,
+    1.81,
+    TRUE,
+    '1984-08-27', -- YYYY-MM-DD
+    '17:30:00',  -- HH24:MI:SS  
+    '2020-02-08 12:35', -- YYYY-MM-DD HH24:MI:SS
+)
+
+SELECT * FROM aluno WHERE id = 1
+
+UPDATE aluno SET 
+    nome = 'Ricardo Melo'
+WHERE id = 1    
